@@ -60,29 +60,31 @@
 // console.log(oddNumbers());
 
 
-// const libirary = {
-//     name: "Alatau",
-//     books: [
-//         {
-//             name: "Harry Potter A", pages: 300,
-//         },
-//         {
-//             name: "Titanic B", pages: 200,
-//         },
-//         {
-//             name: "Risale - Nur", pages: 500,
-//         },
-//         {
-//             name: "Goal", pages: 240,
-//         },
-//         {
-//             name: "ME and You", pages: 150,
-//         }
-//     ],
-// };
+const libirary = {
+    name: "Alatau",
+    books: [
+        {
+            name: "Harry Potter A", pages: 300,
+        },
+        {
+            name: "Titanic B", pages: 200,
+        },
+        {
+            name: "Risale - Nur", pages: 500,
+        },
+        {
+            name: "Goal", pages: 240,
+        },
+        {
+            name: "ME and You", pages: 150,
+        }
+    ],
+};
 
-// function avaragePages() {
-//     return libirary.
-// }
+function avaragePages() {
+    return libirary.pages.reduce((element) => element.pages)
+}
+
+console.log(avaragePages());
 
 
